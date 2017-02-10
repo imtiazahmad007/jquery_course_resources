@@ -1,0 +1,70 @@
+<table style="width:60%">
+    <tr>
+        <td>
+        <form action="#" method="post" name="job_application" id="job_form">
+            <fieldset>
+                <legend><h3>Personal Information</h3></legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="name_field" name="name"><br>
+
+                <label for="address">Home Address:</label>
+                <input type="text" id="address_field" name="address"><br>
+
+                <label for="phone">Phone Number:</label>
+                <input type="text" id="phone_field" name="phone">
+                <br>
+                <br>
+
+                <b> Account Details: </b><br>
+                <label for="email-address">Email Address:</label>
+                <input type="text" id="email_field" name="email"><br>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password_field" name="password"><br>
+                <br>
+                <br>
+
+                <b> Gender: </b><br>
+                <input type="radio" name="gender" value="male" checked> Male<br>
+                <input type="radio" name="gender" value="female"> Female<br>
+                <input type="radio" name="gender" value="other"> Not Disclose<br>
+            </fieldset>
+            <br>
+
+            <fieldset>
+                <legend><h3>Department Interest</h3></legend>
+
+                <b>State</b>
+                <select>
+                    <option value="New Jersey" selected>New Jersey</option>
+                    <option value="New York">New York</option>
+                    <option value="Texas">Texas</option>
+                    <option value="California">California</option>
+                </select>
+                <br>
+                <br>
+
+                <input type="checkbox" name="departmentAcc" value="Accounting" checked>Accounting
+                <br>
+                <input type="checkbox" name="departmentHR" value="HR">Human Resources
+                <br>
+                <input type="checkbox" name="departmentComp" value="Compliance">Compliance
+                <br>
+                <input type="checkbox" name="departmentIT" value="IT">Information Tech
+                <br>
+            </fieldset><br>
+
+            <fieldset>
+                <legend><h3>Create Account</h3></legend>
+                <input type="submit" id="submit" name="submit" value="Submit">
+            </fieldset>
+
+        </form>
+        </td>
+        <td>
+            <div>
+                <textarea rows="15" id="output_value" cols="40"></textarea>
+            </div>
+        </td>
+    <tr>
+</table>
